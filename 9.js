@@ -1,3 +1,4 @@
+//Demostración de asincronía
 setTimeout(() =>{
 console.log("Soy la función número 1")
 }, 3000)
