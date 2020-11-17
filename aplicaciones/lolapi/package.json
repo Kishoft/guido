@@ -1,0 +1,15 @@
+{
+  "name": "lolapi",
+  "version": "1.0.0",
+  "description": "Una api para aprender",
+  "main": "index.js",
+  "scripts": {
+    "levantar": "node index.js"
+  },
+  "author": "El shafty padre",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
