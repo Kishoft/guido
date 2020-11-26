@@ -10,6 +10,7 @@ class Trivia {
 
         Trivia.inyectarPregunta()
         Trivia.inyectarProgreso()
+        
     }
 
     //Objeto que tiene las preguntas, sus respuestas y qué puntaje otorga cada respuesta
