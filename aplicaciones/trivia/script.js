@@ -124,7 +124,7 @@ class Trivia {
             
         }
 
-        preguntasContainer.innerHTML += '<br><input type="submit" value="Contestar">'
+        preguntasContainer.innerHTML += '<br><input type="submit" value="Continuar">'
     }
 
     static finalizarJuego(){
