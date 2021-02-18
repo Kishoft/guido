@@ -1,0 +1,29 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div#historial{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80vh;
+    width: 100%;
+    height: 800px;
+    background: orange;
+}
+span.mensajeRecibido{
+    text-align: left;
+    background: rgba(0, 0, 0, .5);
+    color:white;
+}
+span.mensajeEnviado{
+    text-align: right;
+    background: rgba(255, 255, 255, .5);
+    color:black;
+}
+input{
+    margin: 5px 5px;
+    width: 100%;
+}
