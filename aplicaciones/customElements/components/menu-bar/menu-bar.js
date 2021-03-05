@@ -1,12 +1,8 @@
 class MenuBar extends HTMLElement{
 
-    static get observedAttributes() {
-        return ['open'];
-    }
+    static get observedAttributes() {return ['open']}
 
-    get customHeight(){
-        if(this.hasAttribute('height')) return this.getAttribute('height');
-    }
+    get customHeight(){if(this.hasAttribute('height')) return this.getAttribute('height')}
 
     constructor(){
         super();
